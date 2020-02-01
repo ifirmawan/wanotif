@@ -1,0 +1,22 @@
+{
+    "name": "ifirmawan/wanotif",
+    "description": "A library that provides services to send automatic WhatsApp messages through third parties.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ifirmawan",
+            "email": "firmawaneiwan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "ifirmawan\\Wanotif\\": "src/"
+        }
+    }
+}
